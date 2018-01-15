@@ -22,12 +22,9 @@
   "dependencies": {
     "codemirror": "^5.33.0",
     "css-loader": "^0.28.8",
+    "elfinder": "^0.5.2",
     "font-awesome": "^4.7.0",
-    "fs": "0.0.1-security",
-    "module": "^1.2.5",
-    "nuxt": "^1.1.1",
     "summernote": "^0.8.9",
     "vue": "^2.5.13",
-    "vue-server-renderer": "^2.5.13"
   }
 }

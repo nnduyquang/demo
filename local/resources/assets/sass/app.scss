@@ -9,5 +9,7 @@
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
 @import "node_modules/font-awesome/scss/font-awesome";
-
+@import "node_modules/codemirror/lib/codemirror";
+@import "node_modules/codemirror/theme/monokai";
 @import "node_modules/summernote/dist/summernote";
+

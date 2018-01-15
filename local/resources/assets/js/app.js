@@ -21,8 +21,75 @@ const app = new Vue({
     el: '#app'
 });
 
+// (function (factory) {
+//     /* global define */
+//     if (typeof define === 'function' && define.amd) {
+//         // AMD. Register as an anonymous module.
+//         define(['jquery'], factory);
+//     } else {
+//         // Browser globals: jQuery
+//         factory(window.jQuery);
+//     }
+// }(function ($){
+//     // template, editor
+//     var tmpl = $.summernote.renderer.getTemplate();
+//     // add plugin
+//     $.summernote.addPlugin({
+//         name: 'genixcms', // name of plugin
+//         buttons: { // buttons
+//             readmore: function () {
+//                 return tmpl.iconButton('fa fa-long-arrow-right', {
+//                     event: 'readmore',
+//                     title: 'Read more',
+//                     hide: false
+//                 });
+//             },
+//             elfinder: function () {
+//                 return tmpl.iconButton('fa fa-list-alt', {
+//                     event: 'elfinder',
+//                     title: 'File Manager',
+//                     hide: false
+//                 });
+//             },
+//         },
+//
+//         events: { // events
+//             readmore: function (event, editor, layoutInfo) {
+//                 layoutInfo.holder().summernote("insertText", "[[--readmore--]]");
+//             },
+//             elfinder: function (event, editor, layoutInfo) {
+//                 elfinderDialog();
+//             },
+//
+//         }
+//     });
+// }));
+
 
 
 $(document).ready(function() {
-    $('.summernote').summernote();
+    $('.summernote').summernote({
+        height:150,
+        codemirror:{
+            theme:'monokai',
+            lineWrapping:true
+        },
+        // toolbar: [
+        //     ['style', ['style']],
+        //     ['style', ['bold', 'italic', 'underline', 'strikethrough', 'superscript', 'subscript', 'clear']],
+        //     ['fontname', ['fontname']],
+        //     ['fontsize', ['fontsize']],
+        //     ['color', ['color']],
+        //     ['para', ['ul', 'ol', 'paragraph']],
+        //     ['height', ['height']],
+        //     ['table', ['table']],
+        //     ['insert', ['link', 'picture', 'video', 'hr', 'readmore']],
+        //     ['genixcms', ['elfinder']],
+        //     ['view', ['fullscreen', 'codeview']],
+        //     ['help', ['help']]
+        // ],
+        // onImageUpload: function(files, editor, welEditable) {
+        //     sendFile(files[0],editor,welEditable);
+        // }
+    });
 });
