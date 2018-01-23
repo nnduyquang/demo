@@ -12,9 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-Route::get('/skills', function () {
-    return ['Laravel', 'Vue', 'PHP', 'Javascript', 'Tooling'];
-});
+//Route::get('/skills', function () {
+//    return ['Laravel', 'Vue', 'PHP', 'Javascript', 'Tooling'];
+//});
+//Route::get('/', function () {
+//    return view('welcome');
+//});

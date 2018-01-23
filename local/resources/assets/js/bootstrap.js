@@ -11,9 +11,9 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap-sass');
-    require('elfinder');
-    require('summernote');
-    require('codemirror');
+    // require('elfinder');
+    // require('summernote');
+    // require('codemirror');
 } catch (e) {}
 
 /**
