@@ -1,3 +1,11 @@
 {
-    "/ss/frontend.css": "/ss/frontend.css"
+    "/ss/frontend.css": "/ss/frontend.css",
+    "/s/core.common.js": "/s/core.common.js",
+    "/ss/core.common.css": "/ss/core.common.css",
+    "/onts/fontawesome-webfont.eot": "/onts/fontawesome-webfont.eot",
+    "/onts/fontawesome-webfont.svg": "/onts/fontawesome-webfont.svg",
+    "/onts/fontawesome-webfont.ttf": "/onts/fontawesome-webfont.ttf",
+    "/onts/fontawesome-webfont.woff": "/onts/fontawesome-webfont.woff",
+    "/onts/fontawesome-webfont.woff2": "/onts/fontawesome-webfont.woff2",
+    "/onts/FontAwesome.otf": "/onts/FontAwesome.otf"
 }

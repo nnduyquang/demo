@@ -1,20 +1,22 @@
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+}
 
 img {
   max-width: 100%;
 }
 
-ul {
-  list-style: none;
+#flexbox {
+  //list-style: none;
   padding: 0;
   font: .9em Arial;
   display: flex;
   flex-wrap: wrap;
 
-  li {
-    float: left;
-    width: 23.5%;
-    margin-right: 2%;
+  .one-item {
+    //float: left;
+    //width: 23.5%;
+    //margin-right: 2%;
     margin-bottom: 20px;
     background: #eee;
     padding: 15px;
