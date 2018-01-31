@@ -1,11 +1,6 @@
 let mix = require('laravel-mix');
 mix.setPublicPath('../');
 mix.setResourceRoot('../');
-mix.webpackConfig({
-    node: {
-        fs: "empty"
-    },
-});
 mix.styles([
     //JS DÙNG CHUNG CHO FRONEND VÀ BACKEND
     'bower_components/jquery/dist/jquery.min.js',
@@ -19,7 +14,6 @@ mix.styles([
         // 'bower_components/fancybox/dist/jquery.fancybox.min.css',
     ], '../css/core.common.css')
     .copy([
-        'bower_components/bootstrap/fonts/**',
         'bower_components/font-awesome/fonts/**'
     ], '../fonts')
 
