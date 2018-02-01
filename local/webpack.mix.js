@@ -1,6 +1,11 @@
 let mix = require('laravel-mix');
 mix.setPublicPath('../');
 mix.setResourceRoot('../');
+
+
+
+mix.react('resources/assets/js/app.js', '../js')
+//    .sass('resources/assets/sass/app.scss', 'public/css');
 mix.styles([
     //JS DÙNG CHUNG CHO FRONEND VÀ BACKEND
     'bower_components/jquery/dist/jquery.min.js',
