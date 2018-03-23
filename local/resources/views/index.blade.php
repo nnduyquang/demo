@@ -8,5 +8,6 @@
 @section('container')
     @include("flexbox")
     @include("grid")
+    @include("filemanager")
 @stop
 

@@ -21,5 +21,5 @@ mix.styles([
     .copy([
         'bower_components/font-awesome/fonts/**'
     ], '../fonts')
-
+    .styles('resources/assets/js/scripts.js', '../js/scripts.js')
     .sass('resources/assets/sass/frontend.scss', '../css/frontend.css').options({processCssUrls: false});

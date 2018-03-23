@@ -40,7 +40,8 @@
     });
 </script>
 @yield('scripts')
-{{--{{ Html::script('js/scripts.js') }}--}}
+{{--<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>--}}
+{{ Html::script('js/scripts.js') }}
 <div class="callback hidden-lg hidden-md">
     <div class="phone_animation">
         <div class="phone_animation_circle"></div>
